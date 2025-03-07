@@ -1,13 +1,120 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* @font-face {
+  font-family: "Emola Royce";
+  src: url("EMOLA ROYCE.OTF") format("opentype");
+} */
+
+body {
+  font-family: "Emola Royce", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  text-align: center;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  position: absolute;
+  top: 10px;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 150px;
+}
+
+.logo-left img {
+  height: 20px;
+  cursor: pointer;
+}
+
+.logo-left a {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logo-left a:hover {
+  opacity: 0.8;
+}
+
+.logo-left a:active {
+  opacity: 0.6;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 80px;
+  font-size: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #232740;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #7a7a7a;
+}
+
+.logo-center img {
+  width: 300px;
+}
+
+.logo-center p {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #555;
+}
+
+footer {
+  position: absolute;
+  bottom: 40px;
+}
+
+.social-media {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.social-media .separator {
+  width: 2px;
+  height: 50px;
+  background-color: #232740;
+}
+
+.social-media img {
+  width: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-media img:hover {
+  transform: scale(1.1);
+}
+/* by dyrga azka */
