@@ -1,12 +1,10 @@
-body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "Emola Royce";
+  src: url("EMOLA ROYCE.OTF") format("opentype");
 }
 
 body {
-  /* font-family: "Emola Royce", serif; */
-  font-family: "Emola Royce";
+  font-family: "Emola Royce", serif;
   src: url("EMOLA ROYCE.OTF") format("opentype");
   margin: 0;
   padding: 0;
