@@ -42,19 +42,6 @@ header {
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
-  .logo-left img {
-    display: none;
-  }
-
-  nav ul {
-    gap: 1px;
-    font-size: 10px;
-    margin-left: -412px;
-  }
-  
-}
-
 .logo-left a {
   display: inline-block;
   text-decoration: none;
@@ -139,4 +126,47 @@ footer {
   opacity: 0.8;
 }
 
+@media (max-width: 768px) {
+  .logo-left img {
+    display: none;
+  }
+
+  nav ul {
+    gap: 20px;
+    font-size: 12px;
+    padding: 0 20px;
+    margin: 0;
+  }
+
+  .logo-center img {
+    width: 200px;
+  }
+
+  header {
+    padding: 0 20px;
+    width: 100%;
+    top: 20px;
+  }
+
+  .under-construction
+
+  footer {
+    position: relative;
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .social-media {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .social-media img {
+    width: 25px;
+  }
+
+  .social-media .separator {
+    height: 40px;
+  }
+}
 /* by dyrga azka & raihan */
