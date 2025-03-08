@@ -1,11 +1,15 @@
 @font-face {
-  font-family: "Emola Royce";
+  font-family: "Emola Royce", serif, sans-serif;
   src: url("EMOLA ROYCE.OTF") format("opentype");
 }
 
+@font-face {
+  font-family: "Samarata";
+  src: url("Samarata.ttf") format("truetype");
+}
+
 body {
-  font-family: "Emola Royce", serif;
-  src: url("EMOLA ROYCE.OTF") format("opentype");
+  
   margin: 0;
   padding: 0;
   background-color: #ffffff;
@@ -30,12 +34,25 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 150px;
+  padding: 0 100%;
 }
 
 .logo-left img {
   height: 20px;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .logo-left img {
+    display: none;
+  }
+
+  nav ul {
+    gap: 1px;
+    font-size: 10px;
+    margin-left: -412px;
+  }
+  
 }
 
 .logo-left a {
@@ -62,6 +79,8 @@ nav ul {
 nav a {
   text-decoration: none;
   color: #232740;
+  font-family: "Emola Royce", serif;
+  src: url("EMOLA ROYCE.OTF") format("opentype");
   transition: color 0.3s ease-in-out;
 }
 
@@ -104,4 +123,20 @@ footer {
 .social-media img:hover {
   transform: scale(1.1);
 }
-/* by dyrga azka */
+
+.under-construction {
+  position: absolute;
+  left: 310px;
+  bottom: -30px;
+  font-family: "Samarata";
+  src: url("Samarata.ttf") format("opentype");
+  font-size: 30px;
+  letter-spacing: 2.5px;
+  color: #232740;
+  width: 500px;
+  /* margin-top: 20px; */
+  font-style: bold;
+  opacity: 0.8;
+}
+
+/* by dyrga azka & raihan */

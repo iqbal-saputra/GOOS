@@ -56,6 +56,9 @@ const Home = () => {
       </main>
 
       <footer>
+        <div className="under-construction">
+          This page is under construction...
+        </div>
         <div className="social-media">
           <a
             href="https://www.instagram.com/goos.id"
